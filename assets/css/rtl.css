@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Yekan.woff') format('woff'),
+         url('../fonts/Yekan.ttf') format('truetype'),
+         url('../fonts/Yekan.svg#BYekan') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.dark_right,.desc_right,.soon_right,.header_right, .button {
+	font-family: yekan, iranian-sans ,tahoma;
+}
+
+.header, .soon {
+	font-size: 3.4em;
+}
+
+.desc {
+	font-size: 1.3em;
+}
+
+.dark_subscribe{
+	color: #000;
+	text-shadow:
+	    0px 0px 0px #555555,
+	    0px 0px 0px #454545,
+	    0px 0px 0px #353535,
+	    0px 0px 0px #252525,
+	    0px 1px 3px rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+.desc_right{
+	margin:10px 0;
+	font-size: 1.5em;
+	line-height:1.5;
+	opacity:0.8;
+}
+
+.soon_right{
+	font-size: 3.7em;
+	font-weight: bold;
+	margin:10px 0 10px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+.header_right{
+	font-size: 3.7em;
+	font-weight: bold;
+	margin:10px 0 10px;
+}
+
+
+/*Footer, Social icons in CENTER*/
+.row .nine {
+    width: 35%;
+}
+
+.button.expand {
+	width: 30%;
+}
+
+button, .button {
+	margin-top: 20px;
+}
